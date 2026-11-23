@@ -1,0 +1,58 @@
+# ---------- Unity ----------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity generated project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# IDE
+.vs/
+.idea/
+# .vscode/   (团队共享配置，按需取消注释)
+
+# Unity build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+sysinfo.txt
+
+# ---------- Godot ----------
+.godot/
+
+# ---------- OS ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- Secrets ----------
+.claude/settings.local.json
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# ---------- Local scratch ----------
+.cache/
+tmp/
